@@ -93,8 +93,8 @@ footer {
 
 .mic-video>*,
 .other-things>* {
-    margin: 0 7px 0 7px;
-    font-size: 18px;
+    margin: 0 5px 0 5px;
+    font-size: 26px;
 }
 
 .end-meeting {
@@ -102,4 +102,9 @@ footer {
     padding: 29px;
     font-size: 10px;
     color: red;
+}
+
+.text {
+    font-size: 12px;
+    font-weight: 100;
 }

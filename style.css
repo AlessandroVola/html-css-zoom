@@ -14,10 +14,14 @@ body {
     display: flex;
 }
 
+.center {
+    text-align: center;
+}
 
 
 /* content */
 
+/* header */
 header {
     height: 5vh;
     background-color: #000000;
@@ -28,21 +32,66 @@ header {
 }
 
 .button>* {
-    margin-top: 5px;
-    margin-right: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
     background-color: #4a4a4a;
     color: white;
     border-radius: 3px;
     font-size: 14px;
 }
 
-
+/* main */
 main {
-    height: 85vh;
+    height: 86vh;
     background-color: #000000;
 }
 
+.container {
+    margin: 0 auto;
+    width: 150vh;
+}
+
+
+.card {
+    width: calc(100% / 7);
+
+}
+
+
+.img {
+    width: 100%;
+}
+
+
+.name {
+    color: white;
+}
+
+
+
+
+/* footer */
 footer {
-    height: 10vh;
+    height: 9vh;
     background-color: #222;
+}
+
+.user-interface {
+    height: 9vh;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.mic-video>*,
+.other-things>* {
+    margin: 0 7px 0 7px;
+    font-size: 18px;
+}
+
+.end-meeting {
+    background-color: #4a4a4a;
+    padding: 29px;
+    font-size: 10px;
+    color: red;
 }

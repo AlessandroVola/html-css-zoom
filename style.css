@@ -23,7 +23,7 @@ body {
 
 /* header */
 header {
-    height: 5vh;
+    height: 9vh;
     background-color: #000000;
 }
 
@@ -42,30 +42,38 @@ header {
 
 /* main */
 main {
-    height: 86vh;
+    height: 82vh;
     background-color: #000000;
 }
 
 .container {
     margin: 0 auto;
     width: 150vh;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    height: 98%;
 }
 
 
 .card {
-    width: calc(100% / 7);
-
+    width: calc(100% / 7 - 4px);
+    margin: 2px;
+    position: relative;
 }
 
-
-.img {
+img {
     width: 100%;
 }
 
 
 .name {
     color: white;
+    position: absolute;
+    bottom: 13px;
+    background-color: #4a4a4a;
+    font-size: 14px;
 }
+
 
 
 

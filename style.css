@@ -18,6 +18,10 @@ body {
     text-align: center;
 }
 
+.green {
+    color: green;
+}
+
 
 /* content */
 
@@ -34,6 +38,7 @@ header {
 .button>* {
     margin-top: 10px;
     margin-right: 10px;
+    padding: 3px 3px;
     background-color: #4a4a4a;
     color: white;
     border-radius: 3px;
@@ -44,6 +49,7 @@ header {
 main {
     height: 82vh;
     background-color: #000000;
+    overflow-y: auto;
 }
 
 .container {
@@ -72,6 +78,7 @@ img {
     bottom: 13px;
     background-color: #4a4a4a;
     font-size: 14px;
+    opacity: 0.5;
 }
 
 
@@ -94,7 +101,7 @@ footer {
 .mic-video>*,
 .other-things>* {
     margin: 0 5px 0 5px;
-    font-size: 26px;
+    font-size: 24px;
 }
 
 .end-meeting {
@@ -102,6 +109,7 @@ footer {
     padding: 29px;
     font-size: 10px;
     color: red;
+    height: 100%;
 }
 
 .text {
